@@ -55,13 +55,8 @@ nav ul li{
         transition:0.5s;
     }
     .hide-mobile-menu{
-        right: -200px;
+        right: -600px;
     }
-
-
-
-
-
     nav ul li{
         display: block;
         margin: 25px 40px;

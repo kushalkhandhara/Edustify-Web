@@ -28,7 +28,7 @@ export default function Navbar()
             <li><Link to="about" smooth={true} offset={-150} duration={500}>About Us</Link></li>
             <li><Link className='btn' to="contact" smooth={true} offset={-260} duration={500} >Contact us</Link></li>
         </ul>
-        <img src={menu} className='menu-icon' onClick={toggleMenu} alt="" />
+        <img src={menu} className='menu-icon' onClick={toggleMenu} alt=""/>
     </nav>
   )
 }
